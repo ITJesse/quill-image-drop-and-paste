@@ -5,7 +5,7 @@ export default class ImageDropAndPaste {
 		this.options = options
 		// this.handleDrop = this.handleDrop.bind(this)
 		this.handlePaste = this.handlePaste.bind(this)
-		this.quill.root.addEventListener('drop', this.handleDrop, false)
+		// this.quill.root.addEventListener('drop', this.handleDrop, false)
 		this.quill.root.addEventListener('paste', this.handlePaste, false)
 	}
 
